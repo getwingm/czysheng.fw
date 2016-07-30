@@ -1,0 +1,43 @@
+
+
+.loading{
+    text-align: center;
+    border-bottom: 1px solid #cacaca;
+    background-color: lightyellow;
+}
+
+.category
+{
+    display: block;
+    padding:8px;
+    background:#d3d3d3;
+    border-bottom: 1px solid #cacaca;
+}
+
+.category ul
+{
+    margin-bottom: 0px;
+}
+
+.category ul li
+{
+    display: inline-block;
+
+}
+
+.category ul li a
+{
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #008000;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.category .title
+{
+    color: #000000;
+    font-weight: 800;
+}

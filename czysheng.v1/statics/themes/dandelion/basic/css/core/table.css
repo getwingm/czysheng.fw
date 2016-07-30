@@ -1,0 +1,134 @@
+/*
+ * Dandelion Admin v1.0 - Table Stylesheet
+ *
+ * This file is part of Dandelion Admin, an Admin template build for sale at ThemeForest.
+ * For questions, suggestions or support request, please mail me at maimairel@yahoo.com
+ *
+ * Development Started:
+ * March 25, 2012
+ *
+ * ===============================================
+ * Table of Contents
+ * ===============================================
+ *
+ * 1. General Table Styling
+ * 2. Detail View Table
+ * 3. Data Table Styling
+ *
+ */
+
+/* (1) General Table Styling
+================================================== */
+
+table.da-table
+{
+	width:100%;
+	margin:0;
+	clear:both;
+}
+
+table.da-table tr td, 
+table.da-table tr th
+{
+	vertical-align:middle;
+}
+
+table.da-table thead tr
+{
+	background:#eeeeee url(../../images/default-header.png) repeat-x left top;
+}
+
+table.da-table tr th
+{
+	padding:11px 20px;
+	border-bottom:1px solid #cacaca;
+	border-right:1px solid #cacaca;
+	
+	-moz-box-shadow:inset 1px 0 0 0 #f8f8f8;
+	-webkit-box-shadow:inset 1px 0 0 0 #f8f8f8;
+	-khtml-box-shadow:inset 1px 0 0 0 #f8f8f8;
+	box-shadow:inset 1px 0 0 0 #f8f8f8;
+}
+
+table.da-table thead tr
+{	
+	-moz-box-shadow:inset 0 1px 0 0 #ffffff;
+	-webkit-box-shadow:inset 0 1px 0 0 #ffffff;
+	-khtml-box-shadow:inset 0 1px 0 0 #ffffff;
+	box-shadow:inset 0 1px 0 0 #ffffff;
+}
+
+table.da-table tr th:last-child
+{
+	border-right:none;
+}
+
+table.da-table tr td
+{
+	border-bottom:1px solid #dcdcdc;
+	border-right:1px solid #e0e0e0;
+	padding:7px 10px;
+}
+
+table.da-table tr td:last-child
+{
+	border-right:none;
+}
+
+table.da-table tr:last-child td
+{
+	/*border-bottom:none;*/
+}
+
+table.da-table tr td.da-icon-column
+{
+	text-align: center;
+	width:80px;
+}
+
+table.da-table tr td.da-icon-column img
+{
+	margin:0 2px;
+}
+
+table.da-table tr.odd
+{
+	background-color:#f4f4f4;
+}
+
+table.da-table tr.even
+{
+	background-color:#fcfcfc;
+}
+table.da-table tr.hover
+{
+	background-color:#FBFFE4;
+}
+
+table.da-table.hover tbody tr:hover > .sorting_1, table.da-table.order-column.hover tbody tr:hover > .sorting_1 {
+    background-color: #FBFFE4;
+}
+table.da-table.hover tbody tr:hover > .sorting_2, table.da-table.order-column.hover tbody tr:hover > .sorting_2 {
+    background-color: #FBFFE4;
+}
+table.da-table.hover tbody tr:hover > .sorting_3, table.da-table.order-column.hover tbody tr:hover > .sorting_3 {
+    background-color: #FBFFE4;
+}
+/* (2) Detail View Table
+================================================== */
+
+table.da-table.da-detail-view tbody th
+{
+	width:120px;
+	background:url(../../images/default-header.png) repeat-x left bottom;
+}
+
+table.da-table.da-detail-view tbody tr:last-child th
+{
+	border-bottom:0;
+}
+
+table.da-table.da-detail-view .null
+{
+	color:#F2618C;
+}

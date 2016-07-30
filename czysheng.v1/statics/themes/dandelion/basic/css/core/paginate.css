@@ -1,0 +1,121 @@
+
+
+.da-paginate {
+    float: right;
+    text-align: right;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+
+
+.da-paginate .paginate_button {
+    display:inline-block;
+    background-color:#f3f3f3;
+    cursor:pointer;
+    line-height:1;
+    outline:none;
+    border:1px solid #b1b1b1;
+
+    text-align:center;
+    margin-left:6px;
+    background-repeat:no-repeat;
+    background-position:center center;
+
+    /* CSS 3 */
+
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+
+    -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+    -o-box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+    -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+.da-paginate .paginate_button.current, .da-paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid #979797;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dcdcdc));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -moz-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* FF3.6+ */
+    background: -ms-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* IE10+ */
+    background: -o-linear-gradient(top, white 0%, #dcdcdc 100%);
+    /* Opera 11.10+ */
+    background: linear-gradient(to bottom, white 0%, #dcdcdc 100%);
+    /* W3C */
+}
+
+.da-paginate .paginate_button.disabled, .da-paginate .paginate_button.disabled:hover, .da-paginate .paginate_button.disabled:active {
+    display:inline-block;
+    background-color:#f3f3f3;
+    cursor:pointer;
+    line-height:1;
+    outline:none;
+    border:1px solid #b1b1b1;
+
+    text-align:center;
+    margin-left:6px;
+    background-repeat:no-repeat;
+    background-position:center center;
+
+    /* CSS 3 */
+
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+
+    -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+    -o-box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+    -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+.da-paginate.paging_two_button .paginate_disabled_previous,
+.da-paginate.paging_two_button .paginate_disabled_next,
+.da-paginate.paging_two_button .paginate_enabled_previous,
+.da-paginate.paging_two_button .paginate_enabled_next
+{
+    width:20px;
+    height:20px;
+    text-indent:-9999px;
+}
+
+.paginate_button
+{
+    width:auto;
+    padding:4px 7px;
+    font-size:11px;
+    line-height:1;
+    color:#444444;
+}
+
+.da-paginate .paginate_button:hover {
+    text-decoration:none;
+}
+
+.da-paginate .paginate_button:active {
+    text-decoration:none;
+}
+
+.da-paginate .paginate_button.current {
+    background: #aed063;
+    border-color: #a4b970;
+    color: #374b0b;
+}
+
+.da-paginate .ellipsis {
+    padding: 0 1em;
+}
+
+.da-paginate {
+    color: #333;
+}

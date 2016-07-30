@@ -1,0 +1,67 @@
+
+.playlist
+{
+    display: block;
+    padding:8px;
+    background:#777;
+}
+
+.playlist ul li
+{
+    display: inline-block;
+
+}
+
+.playlist ul li a
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: white;
+    text-decoration:underline;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.playlist .title
+{
+    color: white;
+    font-weight: 800;
+}
+
+.playlist ul li.playing
+{
+    background: darkkhaki;
+    border-radius: 5px;
+}
+
+
+/*#-----------------------------*/
+
+.downlist
+{
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+.downlist ul li
+{
+    display: inline-block;
+}
+
+.downlist ul li a
+{
+    line-height: 30px;
+    font-size: 15px;
+    color: #000000;
+    text-decoration:underline;
+}
+
+.downlist .title
+{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 800;
+}
